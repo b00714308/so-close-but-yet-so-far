@@ -1,0 +1,24 @@
+﻿  Main.cpp
+g:\oop\flightcontrolsystem\flightcontrolsystem\main.cpp(76): warning C4018: '<': signed/unsigned mismatch
+g:\oop\flightcontrolsystem\flightcontrolsystem\main.cpp(98): error C3867: 'FlightSystem::ChangeHeading': non-standard syntax; use '&' to create a pointer to member
+g:\oop\flightcontrolsystem\flightcontrolsystem\main.cpp(98): error C2679: binary '=': no operator found which takes a right-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+  e:\program files (x86)\microsoft visual studio 2017 enterprise\vc\tools\msvc\14.11.25503\include\vector(1469): note: could be 'std::vector<Aircraft,std::allocator<_Ty>> &std::vector<_Ty,std::allocator<_Ty>>::operator =(std::initializer_list<_Ty>)'
+          with
+          [
+              _Ty=Aircraft
+          ]
+  e:\program files (x86)\microsoft visual studio 2017 enterprise\vc\tools\msvc\14.11.25503\include\vector(1448): note: or       'std::vector<Aircraft,std::allocator<_Ty>> &std::vector<_Ty,std::allocator<_Ty>>::operator =(const std::vector<_Ty,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=Aircraft
+          ]
+  e:\program files (x86)\microsoft visual studio 2017 enterprise\vc\tools\msvc\14.11.25503\include\vector(897): note: or       'std::vector<Aircraft,std::allocator<_Ty>> &std::vector<_Ty,std::allocator<_Ty>>::operator =(std::vector<_Ty,std::allocator<_Ty>> &&) noexcept'
+          with
+          [
+              _Ty=Aircraft
+          ]
+  g:\oop\flightcontrolsystem\flightcontrolsystem\main.cpp(98): note: while trying to match the argument list '(std::vector<Aircraft,std::allocator<_Ty>>, overloaded-function)0'
+          with
+          [
+              _Ty=Aircraft
+          ]
